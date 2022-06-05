@@ -31,7 +31,7 @@ and sends the ball's position to the Arduino
                     Find the minimum enclosing circle and its centroid
                     Get the radius of the circle and the x_coor of centroid
 
-                    if radius > 10 and radius < 50:
+                    if radius > 10 and radius < 60:
                         if ball_center_x_coor < 250:
                             Send "1" to arduino to move right
 
