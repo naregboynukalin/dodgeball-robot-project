@@ -34,7 +34,7 @@ class BallTracking:
                 ball_center_x_coor = centroid[0]
                 ((x_coor, y_coor), radius) = cv2.minEnclosingCircle(max_contour)
 
-                if radius > 10:
+                if 10 < radius < 60:
                     position = None
                     if ball_center_x_coor < 250 and self.left:
                         position = "left"
